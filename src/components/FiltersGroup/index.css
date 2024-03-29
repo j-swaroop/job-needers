@@ -1,0 +1,51 @@
+/* filters css */
+.employment-filters {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding-left: 0;
+}
+
+.heading {
+  color: #0f0f0f;
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-top: 15px;
+  margin-bottom: 2px;
+}
+.filters-group {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: auto;
+  justify-content: space-around;
+}
+@media (max-width: 776px) {
+  .filters-group {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .filters-group {
+    width: 100%;
+  }
+}
+.input {
+  /* margin-bottom: 14px; */
+  cursor: pointer;
+}
+.label {
+  color: #1b1b1c;
+  font-size: 14px;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+
+.filter-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 13px;
+  margin-right: 10px;
+}

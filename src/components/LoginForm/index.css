@@ -1,0 +1,92 @@
+/* login css */
+.login-form-bg-container {
+  background-image: linear-gradient(#ffa87c, #fcb053);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-form {
+  background-color: #f2f2ef;
+  border: 1px solid #0e0e0e;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 400px;
+  padding: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.website-logo {
+  margin-bottom: 30px;
+  filter: hue-rotate(180deg);
+  width: 250px;
+}
+@media (max-width: 576px) {
+  .website-logo {
+    width: 100px;
+  }
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+@media (max-width: 576px) {
+  .login-form {
+    padding: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+}
+.input-feild {
+  background-color: transparent;
+  border-color: #111111;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  height: 38px;
+  padding-left: 13px;
+  outline: none;
+  color: #020202;
+  font-weight: 300;
+  font-family: 'Roboto';
+}
+.label-el {
+  color: #101010;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+.login-button {
+  border-width: 0;
+  border-radius: 6px;
+  margin-top: 30px;
+  font-weight: bold;
+  height: 38px;
+  width: 90%;
+  background-color: #0e0d0d;
+  color: #f9ffff;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.login-button:hover {
+  background-color: tomato;
+}
+.error-msg {
+  color: #ff0b37;
+  font-size: 13px;
+  font-family: 'Roboto';
+  margin-top: 10px;
+  align-self: flex-start;
+  width: 90%;
+  margin: auto;
+}
